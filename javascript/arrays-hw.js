@@ -118,7 +118,7 @@ function onImageClick(event)
 //add this image path to the purchasedImage array
 purchasedImages.push(selectedImage);
 
-    //update_shopping_cart();
+    update_shopping_cart();
     buildThumbnails();
 }
 
